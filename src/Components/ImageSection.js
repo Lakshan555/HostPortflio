@@ -6,7 +6,7 @@ function ImageSection() {
   return (
     <div className="ImageSection">
       <div className="img">
-        <img src={about} alt="" />
+        <img src={about} alt=""  className="responsive-image"/>
       </div>
 
       <div className="about-info">
@@ -15,8 +15,9 @@ function ImageSection() {
         </h4>
         <p className="about-text">
           {" "}
-          3rd Year Software Engineering Undergraduate Student of{" "}
-          <span> Sri Lanka Institute of Information Technology (SLIIT).</span>
+          Software Engineering graduate from{" "}
+          <span> Sri Lanka Institute of Information Technology (SLIIT)</span>,
+          currently working as an Associate Software Engineer at OREL IT.{" "}
         </p>
 
         <div className="about-deatils">
@@ -25,15 +26,13 @@ function ImageSection() {
             <p>Age</p>
             <p>Nationality</p>
             <p>Languages </p>
-            <p>Address </p>
           </div>
 
           <div className="right-section">
             <p>: Dabarage Ishanka Pramidu Lakshan</p>
-            <p>: 23</p>
+            <p>: 26</p>
             <p>: Sri Lanka</p>
             <p>: Sinhala,English</p>
-            <p>: 206/9/A Kothalawala,Kaduwela,Sri Lanka</p>
           </div>
         </div>
         <div className="btn">

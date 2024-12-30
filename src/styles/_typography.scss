@@ -1,59 +1,62 @@
-.HomePage{
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    width: 80%;
+.HomePage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.hero-text{
-    color: white;
-    text-align: center;
-    font-size: 3rem;
-    padding-left: 12%;
-    // flex-direction: column;
-    // justify-content: flex-start;
-    // align-items: flex-start;
-    display:inline;
-    span{
-        color: #037FFF;
-       
-    }
- 
+.hero-text {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  display: inline;
+  margin-right: 10px; // Adjust spacing as needed
 }
 
-.hero-description{
-    color: white;
-    text-align: center;
-    span{
-        color: #037FFF;
-        font-weight: bold;
-    }
+.dynamicText {
+  font-size: 44px;
+  display: inline;
 }
 
-.icons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.5rem 0;
+.bothText {
+  padding-left: 40px;
+}
 
-    .icon-holder{
-        margin-left: 1rem;
-    
-        .icon{
-          font-size: 2.3rem ;
-          color: #a4acc4;
-          transition: all .4s ease-in-out;
-        }
-        .gh:hover{
-            color:  red;
-        }
-        .li:hover{
-            color: rgba(212,45,212,0.788);
-        }
-        .fa:hover{
-           color: blue;
-        }
+.hero-description {
+  color: white;
+  text-align: center;
+  span {
+    color: #037fff;
+    font-weight: bold;
+  }
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+
+  .icon-holder {
+    margin-left: 1rem;
+
+    .icon {
+      font-size: 2.3rem;
+      color: #a4acc4;
+      transition: all 0.4s ease-in-out;
     }
+    .gh:hover {
+      color: red;
+    }
+    .li:hover {
+      color: rgba(212, 45, 212, 0.788);
+    }
+    .fa:hover {
+      color: blue;
+    }
+  }
 }

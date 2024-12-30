@@ -4,14 +4,24 @@
     height: 40vh;
     margin-block-end: 8rem;
     .img{
-        width: 70%;
+        width: 84%;
         height: 40vh;
         img{
             width: 100%;
             object-fit: cover;
             
         }
+
+        @media (min-width: 1942px) {
+            img{
+                width: 50%; 
+                object-fit: cover;
+                
+            }
+        }
     }
+
+    
     .about-info{
         margin-left: 2rem;
     
@@ -32,6 +42,11 @@
  
 }
 
+@media (min-width: 1942px) {
+    .responsive-image {
+      width: 0%; /* Adjust the width as needed */
+    }
+  }
 
 .btn{
     margin-top: 1.7rem;
