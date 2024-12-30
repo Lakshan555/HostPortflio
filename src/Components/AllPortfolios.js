@@ -1,5 +1,5 @@
 
-import port4 from '../img/portImages/port3.jpg';
+
 
 
 const portfolios = [

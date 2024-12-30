@@ -1,7 +1,6 @@
 import React from 'react';
 import Carousel from 'react-elastic-carousel'
 import Card from '../Card';
-import VideoCard from '../VideoCard';
 import Tittle from "../../Components/Tittle";
 import DetailsSection from '../../Components/DetailsSection';
 
